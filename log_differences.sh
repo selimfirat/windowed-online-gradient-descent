@@ -1,0 +1,2 @@
+python main.py --experiment_name difference_logs --data pumadyn --truncation 250 --hidden_size 16 --optimizer windowed_ogd --time_decay --lr_ih 4 --lr_hh 4 --lr_oh 1 --window_size 120 --alpha 0 --num_threads -1
+python main.py --mlflow --log_differences --experiment_name difference_logs --data elevator --truncation 250 --hidden_size 16 --optimizer windowed_ogd --time_decay --lr_ih 1 --lr_hh 1 --lr_oh 1 --window_size 120 --alpha 0 --num_threads -1
